@@ -5,7 +5,7 @@ Harvard Beat Assessment Test (H-BAT) のオンライン実装版です。聴力�
 ## 🚀 機能
 
 - **聴力閾値テスト**: 1000Hz, 2000Hz, 4000Hzの純音での閾値測定
-- **Beat Saliency Test**: 2拍子/3拍子の知覚・生成能力の測定
+- **Beat Saliency Test**: 2拍子/3拍子の知覚能力の測定
 - **レスポンシブ対応**: デスクトップ・モバイル両対応
 - **管理ダッシュボード**: 研究者向けデータ集計・CSV出力機能
 
@@ -77,7 +77,7 @@ Harvard Beat Assessment Test (H-BAT) のオンライン実装版です。聴力�
 1. トップページで利用規約に同意
 2. 基本情報（年齢、性別）を入力
 3. 聴力閾値テストを実施（約3分）
-4. Beat Saliency Testを実施（約7分）
+4. Beat Saliency Test（知覚テスト）を実施（約4分）
 5. 結果を確認
 
 ### 研究者向け
@@ -110,7 +110,7 @@ NEXT_PUBLIC_SITE_URL=https://your-domain.com
 |------|--------|
 | Day 1-3 | プロジェクト初期化、DB設計 |
 | Day 4-7 | 聴力閾値テスト実装 |
-| Day 8-11 | Beat Saliency Test実装 |
+| Day 8-10 | Beat Saliency Test（知覚のみ）実装 |
 | Day 12-14 | 管理画面、E2Eテスト |
 
 ## 🔒 セキュリティ・倫理
